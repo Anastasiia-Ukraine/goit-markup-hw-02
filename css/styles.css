@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
 }
 
 ul,
@@ -25,7 +25,7 @@ ol {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+
   text-decoration: none;
 }
 .nav-links .link:hover {
@@ -52,7 +52,6 @@ ol {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02px;
 }
 
 .button {
@@ -61,7 +60,7 @@ ol {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04px;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
 }
@@ -77,6 +76,7 @@ ol {
 .logo-page {
   background-color: #2e2f42;
 }
+
 .logo-page .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -92,4 +92,23 @@ ol {
 }
 .logo-part2 {
   color: #f4f4fd;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.5;
 }
