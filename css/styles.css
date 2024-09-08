@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   color: #434455;
   letter-spacing: 0.02px;
@@ -11,9 +11,14 @@ ol {
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03px;
+  color: #4d5ae5;
 }
 
 .nav-links .link {
@@ -33,9 +38,31 @@ ol {
 
 .title {
   color: #fff;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02px;
 }
 
 .button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04px;
+  color: #ffffff;
+}
+
+.logo-page {
+  background-color: #2e2f42;
+}
+.logo-page .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
