@@ -23,6 +23,10 @@ ol {
 
 .nav-links .link {
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+  text-decoration: none;
 }
 .nav-links .link:hover {
   color: #404bbf;
@@ -30,6 +34,13 @@ ol {
 
 .nav-links .link:active {
   color: #404bbf;
+}
+.nav-links .link:focus {
+  color: #404bbf;
+}
+
+.contact-links .link {
+  text-decoration: none;
 }
 
 .main-page {
@@ -52,6 +63,15 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04px;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
 }
 
 .logo-page {
@@ -65,4 +85,11 @@ ol {
   letter-spacing: 0.03px;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+.logo-part2 {
+  color: #f4f4fd;
 }
