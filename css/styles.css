@@ -109,6 +109,10 @@ ol {
   letter-spacing: 0.02em;
 }
 
+.images {
+  background-color: #ffffff;
+}
+
 .title-page .title {
   font-weight: 700;
   font-size: 36px;
