@@ -142,6 +142,9 @@ ol {
 .title-page-team {
   background-color: #f4f4fd;
 }
+.title-page-team .background {
+  color: #f4f4fd;
+}
 
 h3 {
   color: #2e2f42;
