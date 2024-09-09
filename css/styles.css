@@ -145,6 +145,10 @@ ol {
 .title-page-team .background {
   color: #f4f4fd;
 }
+.background .link {
+  background-color: #ffffff;
+  color: #434455;
+}
 
 h3 {
   color: #2e2f42;
