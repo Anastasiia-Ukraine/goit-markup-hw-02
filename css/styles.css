@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   background-color: #ffffff;
   color: #434455;
   letter-spacing: 0.02em;
@@ -84,12 +84,13 @@ ol {
   background-color: #2e2f42;
 }
 
-h2 {
+.title-page .title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 h3 {
