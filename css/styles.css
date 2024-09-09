@@ -17,7 +17,7 @@ ol {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
@@ -73,25 +73,15 @@ ol {
   background-color: #404bbf;
 }
 
-.logo-page {
-  background-color: #2e2f42;
-}
-
-.logo-page .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03px;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
 .logo-part {
   color: #2e2f42;
 }
-.logo-part2 {
+.logo-end {
   color: #f4f4fd;
+}
+
+.footer {
+  background-color: #2e2f42;
 }
 
 h2 {
@@ -111,4 +101,9 @@ h3 {
 
 p {
   line-height: 1.5;
+}
+
+.p-end {
+  line-height: 1.5;
+  color: #f4f4fd;
 }
